@@ -68,6 +68,7 @@ header{
     color:whitesmoke;
     justify-content:space-between;
     align-items: center;
+    z-index: 100;
 }
 
 header h1{
@@ -106,6 +107,9 @@ section{
     z-index: 5;
     max-width: 70%;
     margin:auto;
+    padding-top: 70px;
+    margin-top: -70px;
+    position: relative;
 }
 
 .content {
@@ -124,6 +128,8 @@ section{
     color: rgba(17, 75, 235, 1);
 }
 
+
+/* Skills */
 
 .skills-container{
     display: flex;
@@ -151,15 +157,26 @@ section{
     transition: transform 400ms ease-in-out 100ms;
 }
 
+/* Projects */
 
+#projects {
+
+}
+
+#projects img{
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+}
 
 
 /* Contact */
 
-#contact {
+.contact-container {
     background-color: rgba(255, 255, 255, 0.8);
     width: 500px;
-    padding: 20px;
+    margin: auto;
 }
 
 #submit {
