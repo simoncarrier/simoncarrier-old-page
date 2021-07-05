@@ -5,6 +5,12 @@ body {
     text-align: center;
 }
 
+.flex-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /*Background*/
 #video{
     position: fixed;
@@ -159,13 +165,6 @@ section{
 
 /* Projects */
 
-
-#projects img{
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 150px;
-    max-height: 150px;
-}
 
 
 /* Contact */
