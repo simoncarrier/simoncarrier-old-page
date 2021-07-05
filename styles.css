@@ -131,6 +131,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 20px 20px 40px 20px;
 }
 
 .skills-container img{
@@ -139,13 +140,13 @@ section{
     margin: 15px;
 }
 
-figure {
+.skills-container figure {
     font-weight: bold;
     padding: 10px;
     transition: transform 400ms ease-in-out 100ms;
 }
 
-figure:hover{
+.skills-container figure:hover{
     transform:scale(2);
     transition: transform 400ms ease-in-out 100ms;
 }
